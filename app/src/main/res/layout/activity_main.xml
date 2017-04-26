@@ -28,24 +28,31 @@
     <RelativeLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="200dp"
         >
 
         <!--<com.vogtec.circulaprogressbar.CircleView
             android:id="@+id/circle_view"
             android:layout_width="200dp"
-            android:layout_height="80dp"
+            android:layout_height="100dp"
             android:layout_centerInParent="true"/>-->
         <com.vogtec.circulaprogressbar.DashboardView
+            android:id="@+id/dashboardview"
             android:layout_width="200dp"
-            android:layout_height="match_parent"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
             app:max_speed="60"
             app:speed="0"
-            app:from_angle="180"
-            app:sweep_angle="180"
-            app:rect_with="8dp"
+            app:from_angle="160"
+            app:sweep_angle="220"
+            app:rect_with="10dp"
             app:rect_height="10dp"
             app:rect_gap="0dp"/>
+        <!--<com.vogtec.circulaprogressbar.DashboardView2
+            android:id="@+id/dashboardview2"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"/>-->
     </RelativeLayout>
 
 

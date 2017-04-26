@@ -13,5 +13,10 @@ public class MainActivity extends AppCompatActivity {
 //        circleProgressBar.animationToProgress(0,605);
 //        CircleView circleView = (CircleView) findViewById(R.id.circle_view);
 //        circleView.startCustomAnimation();
+//        DashboardView2 dashboardView2 = (DashboardView2) findViewById(R.id.dashboardview2);
+//        dashboardView2.setCreditValueWithAnim(600);
+        DashboardView dashboardView = (DashboardView) findViewById(R.id.dashboardview);
+        dashboardView.setSpeed(59);
+
     }
 }
